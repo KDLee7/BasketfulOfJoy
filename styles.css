@@ -1,0 +1,174 @@
+
+
+.container{
+    width: 100%;
+    height:auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section */
+.header{
+    margin: 0 auto;
+    padding-top:1em;
+    background-color: #ffffff;
+    height:auto;
+    width: 90%;
+    justify-content: space-around;
+    background-color: gainsboro ;
+    background-image: url('./images/background.jpg');
+    line-height: 1.5;  
+}
+
+.logo-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+h1,h2,h3{
+    margin-top: .5em; 
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    padding: 2em 0;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ul{
+    text-decoration: solid;
+    color:black;
+
+}
+
+/* Mission Section */
+
+.mission{
+    background-image: url('./images/dmitry-mashkin-N5fp98wt6h8-unsplash.jpg');
+    background-size: cover;
+    display:flex;
+    width: 90%;
+    height: auto;
+    margin: 2em auto;
+    justify-content: center;
+    
+
+
+}
+.statement{
+    background-color: gainsboro ;
+    height:50%;
+    width:30%;
+    margin: 0 0 0 auto;
+    padding: 10px;
+    flex-direction: row;
+    line-height: 2em ;   
+}
+
+
+/* Product Section */
+
+.products{
+    height:auto;
+    max-width: 90%;
+    margin:2em auto;
+    background-color: gainsboro ;
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+.basket-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 2em;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+/* About section */
+.aboutus{
+    background-image: url("./images/background.jpg");
+    width:90%;
+    height:auto;
+    text-align: center;
+    align-items: center;
+    margin:2em auto;
+    padding-top:1em;
+}
+
+.about-container{
+    display: flex;
+    padding-top:2em;
+    margin:2em auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.pic{
+    margin: 2em;
+}
+
+.about{
+   
+    padding:1em;
+    line-height: 2em;
+    width:90%;
+    height:auto;
+}
+
+/* contact section */
+.contact{
+    height:auto;
+    width:90%;
+    text-align: center;
+    margin:0 auto;
+    padding:1em 0;
+    background-color: gainsboro ;
+}
+
+footer{
+    height:auto;
+    width:90%;
+    text-align: center;
+    margin:-1.2em auto;
+    background-color: gainsboro;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for tablets and smaller screens */
+    .header {
+        padding: 10px;
+    }
+
+    .nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for phones */
+    .header {
+        padding: 5px;
+    }
+
+    .nav li {
+        margin: 5px 0;
+    }
+}
